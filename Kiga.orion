@@ -13,12 +13,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 			Default = {
-			　Main    = Color3.fromRGB(0, 0, 0),     -- 完全な黒（背景）
-　　　　　　　　Second  = Color3.fromRGB(0, 0, 0),     -- ボタンも完全黒
-　　　　　　　　Stroke  = Color3.fromRGB(20, 20, 20),  -- 極薄の枠だけ見える
-　　　　　　　　Divider = Color3.fromRGB(20, 20, 20),  -- 極薄の区切り線
-　　　　　　　　Text    = Color3.fromRGB(255, 255, 255), -- 真っ白文字
-　　　　　　　　TextDark= Color3.fromRGB(180, 180, 180)  -- 半透明系の白
+			Main = Color3.fromRGB(0, 0, 0),
+			Second = Color3.fromRGB(0, 0, 0),
+			Stroke = Color3.fromRGB(20, 20, 20),
+			Divider = Color3.fromRGB(20, 20, 20),
+			Text = Color3.fromRGB(255, 255, 255),
+			TextDark = Color3.fromRGB(180, 180, 180)
 		}
 	},
 	SelectedTheme = "Default",
